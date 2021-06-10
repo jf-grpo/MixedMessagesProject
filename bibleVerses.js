@@ -19,6 +19,6 @@ var verses = [
   ];
 
 function newVerse() {
-    var randomNumber = Math.floor(Math.random() * (quotes.length));
+    var randomNumber = Math.floor(Math.random() * (verses.length));
     document.getElementById('verseDisplay').innerHTML = verses[randomNumber];
 }
